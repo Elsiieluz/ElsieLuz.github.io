@@ -1,0 +1,54 @@
+body {
+    background-color: #ffffff;
+	font-size: 150%;
+	font-family: "courier new", courier, monospace;
+	text-align: center;
+}
+
+p {
+    color: #000000;
+    text-align: center;
+	font-family: "courier new", courier, monospace;
+}
+p.yoga {
+    color:#1a53ff;
+    text-align: center;
+	font-family: "courier new", courier, monospace;
+}
+
+td {
+	width:20%;
+	text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#ff99cc;
+	text-align: center;
+	margin:0 auto;
+}
+
+li a {
+    float: left;
+    display: block;
+    color:#c44dff;
+    padding: 14px 87px;
+    text-decoration: none;
+	text-align: center;
+}
+ /* change link color to #111 (black) on hover*/
+
+li a.Home {
+    background-color: #e699ff;
+    color: pink ;
+	text-align: center;
+}
+
+li a:hover:not(.active) {
+    background-color: #e699ff;
+    color: Black;
+	text-align: center;
+}
